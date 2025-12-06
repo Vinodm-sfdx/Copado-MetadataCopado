@@ -1,7 +1,7 @@
 // Line 1: Define a class called Greeter
 public class Greeter {
     // Line 2: A public method that takes a name and returns a greeting
-    public static String greet(String userName) {
+    public static String wish(String userName) {
         // Line 3: Check if the name is empty or null
         if (String.isNotBlank(userName)) {
             // Line 4: Create the greeting message
@@ -12,7 +12,7 @@ public class Greeter {
             return message;
         } else {
             // Line 7: Handle the case where no name is provided
-            String defaultMessage = 'Hello there!';
+            String defaultMessage = 'Iam here';
             // Line 8: Print the default message
             System.debug(defaultMessage);
             // Line 9: Return the default message
