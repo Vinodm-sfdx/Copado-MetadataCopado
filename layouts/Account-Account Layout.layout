@@ -23,6 +23,10 @@
                 <behavior>Edit</behavior>
                 <field>Roll_Numberr__c</field>
             </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>Connection_Check__c</field>
+            </layoutItems>
         </layoutColumns>
         <layoutColumns>
             <layoutItems>
